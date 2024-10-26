@@ -1,0 +1,70 @@
+article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.style-me1 {
+    color: red;
+}
+
+.style-me2 {
+    color: blue;
+}
+
+.style-me1.style-me2 {
+    color: purple;
+}
+
+.descendant-styled p {
+    background-color: red;
+}
+
+.my-children-are-styled > p {
+    background-color: lightgreen;
+}
+
+.box-px {
+    width: 200px;
+    height: 150px;
+    background-color: lightcoral;
+}
+
+.box-rem {
+    width: 15rem; /* Relative to the root font size */
+    height: 10rem;
+    background-color: lightgreen;
+}
+
+.box-vw-vh {
+    width: 50vw; /* 50% of viewport width */
+    height: 50vh; /* 50% of viewport height */
+    background-color: lightblue;
+}
+
+.box-vw-vh {
+    height: 60vh !important;
+}
+
+.box {
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box-solid {
+    border: 10px solid blue;
+}
+
+.box-dashed {
+    border: 10px dashed red;
+}
+
+.box-dotted {
+    border: 10px dotted green;
+}
+
+.box-outline {
+    outline: 10px solid teal;
+}
+
